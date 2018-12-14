@@ -10,4 +10,6 @@ function mytrigon(){
 { 
     console.log(" this trigon is equilateral");
 }
+else if (flank[0]==flank[1]||flank[1]==flank[2]||flank[0]==flank[2])
+{
 }
