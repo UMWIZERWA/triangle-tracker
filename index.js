@@ -11,16 +11,17 @@ function mytrigon(){
 { 
     console.log(" This trigon is Equilateral");
 }
-else if (flank[0]==flank[1]||flank[1]==flank[2]||flank[0]==flank[2])
+else if (flank[0]===flank[1]||flank[1]===flank[2]||flank[0]===flank[2])
 {
-    console.log("this trigon is isoceles ");
+    console.log("This trigon is Isoceles ");
 }
 else
 {
-    console.log("this trigon is Scalene");
+    console.log("This trigon is Scalene");
+}
 }
 else 
 {
-    console.log("Not a trigon");
+    console.log("This is not a trigon");
 }
 }
