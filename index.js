@@ -5,7 +5,8 @@ function mytrigon(){
         parseInt(document.getElementById("flank2").value),
         parseInt(document.getElementById("flank3").value)];
 
-     
+     if(flank[0]+flank[1]>flank[2]&&flank[0]+flank[2]>flank[1]&&flank[1]+flank[2]>flank[0])
+     {
      if (flank[0]==flank[1]&& flank[1]==flank[2])
 { 
     console.log(" this trigon is equilateral");
