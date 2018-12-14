@@ -20,4 +20,6 @@ else if (flanksum>flank[2])
 }
 else 
 {
+    console.log("Not a trigon");
+}
 }
