@@ -7,15 +7,15 @@ function mytrigon(){
 
      if(flank[0]+flank[1]>flank[2]&&flank[0]+flank[2]>flank[1]&&flank[1]+flank[2]>flank[0])
      {
-     if (flank[0]==flank[1]&& flank[1]==flank[2])
+     if (flank[0]===flank[1]&& flank[1]===flank[2]&&flank[1]===flank[0])
 { 
-    console.log(" this trigon is equilateral");
+    console.log(" This trigon is Equilateral");
 }
 else if (flank[0]==flank[1]||flank[1]==flank[2]||flank[0]==flank[2])
 {
     console.log("this trigon is isoceles ");
 }
-else if (flanksum>flank[2]) 
+else
 {
     console.log("this trigon is Scalene");
 }
