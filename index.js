@@ -8,4 +8,6 @@ function mytrigon(){
      var flanksum=parseInt(flankt[0])+parseInt(flank[1]);
      if (flank[0]==flank[1]&& flank[1]==flank[2])
 { 
+    console.log(" this trigon is equilateral");
+}
 }
