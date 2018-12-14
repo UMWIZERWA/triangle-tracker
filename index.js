@@ -18,4 +18,6 @@ else if (flanksum>flank[2])
 {
     console.log("this trigon is Scalene");
 }
+else 
+{
 }
