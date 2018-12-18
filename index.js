@@ -9,19 +9,20 @@ function mytrigon(){
      {
      if (flank[0]===flank[1]&& flank[1]===flank[2]&&flank[1]===flank[0])
 { 
-    console.log(" This trigon is Equilateral");
+    alert(" This trigon is Equilateral");
 }
 else if (flank[0]===flank[1]||flank[1]===flank[2]||flank[0]===flank[2])
 {
-    console.log("This trigon is Isoceles ");
+    alert("This trigon is Isoceles ");
 }
 else
 {
-    console.log("This trigon is Scalene");
+    alert("This trigon is Scalene");
 }
+
 }
 else 
 {
-    console.log("This is not a trigon");
+    alert("This is not a trigon");
 }
 }
