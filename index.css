@@ -3,6 +3,7 @@ main{
 }
 .first{
     font-family: "Times New Roman", Times, serif;
+    
 }
 .second{
     padding: 12px 20px;
@@ -14,4 +15,7 @@ main{
     text-align: center;
     font-size: 18px;
     font-style: italic;
+}
+p{
+    font-size: 20px;
 }
