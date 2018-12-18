@@ -6,7 +6,7 @@ UMWIZERWA Agathe
 ##### Setup instructions:
 This is a great place to list setup instructions in a simple easy-to-understand.use google chrome and text-editor.
 #### BDD
-| Behavior                                                         | Input     |  Output     | :------------------------------------------------------------------| :--------:| -----------:|
+| Behavior                                                        | Input     |  Output  | :---------------------------------------------------------------| :--------:| ----------:|
 | when i put in 3 equal numbers it will say equilateral            | 25,25,25  | Equilateral |
 | when i put in 2 equal numbers it will say  isosceles             | 20,20,40  |  Isosceles  |
 | when i put in 3 different numbers it will say scalene            | 10,20,30  | Scalene     |
